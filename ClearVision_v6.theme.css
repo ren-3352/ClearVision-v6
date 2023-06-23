@@ -17,10 +17,10 @@
   --success-color: #43b581;
   --danger-color: #982929;
   --url-color: var(--main-color);
-  --background-image: url('https://webstatic.hoyoverse.com/upload/contentweb/2022/09/08/025dd263343936c583ff1865bc19ff1e_5728723583716548842.png');
+  --background-image: url('https://e1.pxfuel.com/desktop-wallpaper/444/474/desktop-wallpaper-pastel-aesthetic-gaming-laptop-pastel-pink-anime-pc.jpg');
   --background-shading: 100%;
   --background-position: center;
-  --background-size: cover;
+  --background-size: 150%;
   --background-repeat: no-repeat;
   --background-attachment: fixed;
   --background-brightness: 73%;
@@ -28,7 +28,7 @@
   --background-saturation: 100%;
   --background-grayscale: 0%;
   --background-invert: 0%;
-  --background-blur: 3px;
+  --background-blur: 0px;
   --background-overlay: rgb(48,43,43,0.56);
   --user-popout-image: url('https://pbs.twimg.com/media/FPPA9GLagAAqgVY.jpg');
   --user-popout-position: center;
@@ -65,7 +65,7 @@
   --offline-color: #808080;
   --main-font: gg sans;
   --code-font: Consolas;
-  --channels-width: 220px;
+  --channels-width: 275px;
   --members-width: 240px;
   --backdrop-overlay: rgba(0,0,0,0.8);
   --backdrop-image: var(--background-image);
@@ -86,4 +86,3 @@
 }
 
 /* Any custom CSS below here */
-}
