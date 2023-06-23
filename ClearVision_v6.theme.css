@@ -9,55 +9,53 @@
  * @BDEditor Clear Vision
 */
 
-@import url('https://fonts.googleapis.com/css2?family=gg+sans:wght@100;300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Consolas:wght@100;300;400;500;700&display=swap');
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
 
 :root {
-  --main-color: #EFABE6;
-  --hover-color: #BD65C7;
-  --success-color: #9733B3;
+  --main-color: #FDC7F2;
+  --hover-color: #E971C0;
+  --success-color: #43b581;
   --danger-color: #982929;
-  --url-color: #46A0C9;
-  --background-image: url('https://pbs.twimg.com/media/FPPA9GLagAAqgVY.jpg');
+  --url-color: var(--main-color);
+  --background-image: url('https://webstatic.hoyoverse.com/upload/contentweb/2022/09/08/025dd263343936c583ff1865bc19ff1e_5728723583716548842.png');
   --background-shading: 100%;
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
   --background-attachment: fixed;
-  --background-brightness: 22%;
+  --background-brightness: 73%;
   --background-contrast: 100%;
   --background-saturation: 100%;
   --background-grayscale: 0%;
   --background-invert: 0%;
-  --background-blur: 2px;
-  --background-overlay: rgb(255,196,240,0.29);
-  --user-popout-image: url('https://e1.pxfuel.com/desktop-wallpaper/569/240/desktop-wallpaper-elysian-realm-elysia.jpg');
-  --user-popout-position: Bottom left;
+  --background-blur: 3px;
+  --background-overlay: rgb(48,43,43,0.56);
+  --user-popout-image: url('https://pbs.twimg.com/media/FPPA9GLagAAqgVY.jpg');
+  --user-popout-position: center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
   --user-popout-attachment: fixed;
-  --user-popout-brightness: 44%;
+  --user-popout-brightness: 64%;
   --user-popout-contrast: 100%;
   --user-popout-saturation: 100%;
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
-  --user-popout-blur: 3px;
-  --user-modal-image: url('https://e1.pxfuel.com/desktop-wallpaper/569/240/desktop-wallpaper-elysian-realm-elysia.jpg');
-  --user-modal-position: Bottom left;
+  --user-popout-blur: 8px;
+  --user-modal-image: url('https://webstatic.hoyoverse.com/upload/contentweb/2022/09/08/025dd263343936c583ff1865bc19ff1e_5728723583716548842.png');
+  --user-modal-position: center;
   --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
   --user-modal-attachment: fixed;
-  --user-modal-brightness: 83%;
+  --user-modal-brightness: 103%;
   --user-modal-contrast: 100%;
   --user-modal-saturation: 100%;
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
-  --user-modal-blur: 3px;
-  --home-icon: url('https://i.pinimg.com/originals/3a/b4/28/3ab4281085e3a09c9e2ce18e1ddbbf81.jpg');
+  --user-modal-blur: 1px;
+  --home-icon: url('https://i.pinimg.com/originals/cd/ae/8b/cdae8bf97b950a17ad6a2ee69cf4812a.jpg');
   --home-position: center;
-  --home-size: 50px;
-  --channel-unread: #FFFFFF;
+  --home-size: 70px;
+  --channel-unread: var(--main-color);
   --channel-color: rgba(255,255,255,0.3);
   --muted-color: rgba(255,255,255,0.1);
   --online-color: #43b581;
@@ -65,7 +63,7 @@
   --dnd-color: #982929;
   --streaming-color: #593695;
   --offline-color: #808080;
-  --main-font: Whitney;
+  --main-font: gg sans;
   --code-font: Consolas;
   --channels-width: 220px;
   --members-width: 240px;
@@ -88,3 +86,4 @@
 }
 
 /* Any custom CSS below here */
+}
